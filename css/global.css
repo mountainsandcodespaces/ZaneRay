@@ -1,0 +1,38 @@
+:root {
+   
+    /* COLORS */
+    --primary-background: #1a1a1a;
+    --primary-text: white;    
+
+    --secondary-background: white;    
+    --secondary-text: black;    
+
+    --primary-accent: orange;
+    --tertiary-background: #E8E8E8;
+
+    /* FONTS */
+    --font-heading: 'Archivo Black', sans-serif;;
+    --font-body: 'Roboto', sans-serif;
+
+
+    /* FONT SIZES */
+    --fs-1: 18px;  
+    --fs-2: 1.2em;     
+    --fs-3: 1.5em;     
+    --fs-4: 2em;
+    --fs-8: 4em;
+
+    
+    /* IMAGE OVERLAYS */
+    --io-1: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.0) );
+    --io-2: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.0) );
+   
+    --accent-1: orange;
+    
+    /* --accent-color1: orange;   
+    --accent-1: linear-gradient(90deg, hsla(39, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+    --accent-1a: linear-gradient(180deg, hsla(39, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
+
+    --primary-1: hsl(0deg 0% 100% / 50%); */
+   
+}
