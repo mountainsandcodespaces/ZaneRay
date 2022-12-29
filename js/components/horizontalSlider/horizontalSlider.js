@@ -243,12 +243,13 @@ class HorizontalSlider {
           if (e.keyCode == '39') this.moveSlides(1);
         }               
         
-
+        // Grab Panels are used for mobile so users don't get stuck sliding the slides horizontally
+        // when they are trying to scroll up or down.
         let html = "<div class='left-grab-panel'></div><div class='right-grab-panel'></div>";        
 
         html += "<div class='slide-viewer'>";
         if (this.hasForwardBackControls) {
-          html += "<div class='control back'></div><div class='control forward'></div>";
+          html += "<div class='control back' role='button'><div class='hide-but-read'>Back</div></div><div class='control forward' role='button'><div class='hide-but-read'>Forward</div></div>";
         }
         html += "<div class='slide-group'>";
         data.map((item, index) => {

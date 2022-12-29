@@ -6,7 +6,7 @@
   <meta name="description" content="Resource Proposal to Zaneray">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">    
   <link rel="icon" type="image/png" href="coding.png" />
-  <title>Mountains and Code - Zaneray</title> 
+  <title>John Bissen | Full Stack Developer | Mountains and Code</title> 
 
   <link rel='stylesheet' href='css/global.css' />
   <link rel='stylesheet' href='css/zaneray-main.css' />   
@@ -16,22 +16,38 @@
 </head>
 
 <body class='fade'>   
-    <main>     
+    <main>   
+        <!-- HERO -->
         <section class='hero-section'>
             <!-- background image -->
             <div class='background-image'>
-                <!-- <img src='~/../img/hero/aetnas_summit_foreground2.png' alt='John standing on mountain peak'/> -->
-                <img src='~/../img/hero/mountainpeak.jpg' alt='John standing on mountain peak'/> 
+                <img src='~/../img/hero/aetnas_summit_foreground2.webp' alt='John standing on mountain peak'/>
+                <!-- <img src='~/../img/hero/mountainpeak.jpg' alt='John standing on mountain peak'/>  -->
             </div>
 
             <!-- header -->
             <div class='header flex-row-between'>
-                <div class='brand'>Mountains and Code</div>
-                <div class='title'>Hello Zaneray!</div>
+                <div class='brand slide-up'>   
+                    <img src='~/../img/about/code-white.png' alt='code icon'/>                 
+                    <span>Mountains</span>
+                    <span>AndCode</span>
+                </div>  
+                
+                <div class='menu slide-right tr-d-4'>
+                    <ul>
+                        <li><a href='#about'>About</a></li>
+                        <li><a href='#life'>Life</a></li>
+                        <li><a href='#purpose'>Purpose</a></li>
+                        <li><a href='#gear'>Gear</a></li>
+                    </ul>
+                </div>     
             </div>
 
+            <!-- <div class='title slide-right tr-d-4'>Hello Zaneray!</div> -->
+           
+
             <!-- name, discipline, country, region -->
-            <div class='foreground'>
+            <div class='foreground slide-up tr-d-3'>
                 <div class='name'>John Bissen</div>
                 <div class='person-details flex-row-between'>
                     <div class='discipline'>Programmer</div>
@@ -41,13 +57,15 @@
             </div>
         </section>
 
-        <section class='explain-this'>
+        <!-- EXPLANATION -->
+        <section class='explain-this slide-up tr-d-1'>
             <h1>If I was a Black Diamond Athlete, this is what my page might look like.</h1>
         </section>
 
-        <section class='about-section'>
+        <!-- ABOUT -->
+        <section id='about' class='about-section'>
             <div class='photo'>
-                <img class='image' src='~/../img/about/profile.jpg' alt='John and son holding fishing rod'/>
+                <img class='image' src='~/../img/about/profile.jpg' alt='John and son holding fishing rod' loading="lazy"/>
             </div>
             <div class='accolades'>
                 <ul>
@@ -61,31 +79,42 @@
                     </li>
                     <li class='flex-row'>
                         <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
-                        <span class='text'>Lives Life hiking, snowboarding, fishing, kayaking, backpacking, and getting outside with family.</span>
-                    </li>
+                        <span class='text'>Pretty Outdoorsy - Hiking, Snowboarding, Fishing, Kayaking, Backpacking, and getting outside with family.</span>
+                    </li>                    
                     <li class='flex-row'>
                         <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
                         <span class='text'>Lived out of a backpack in the following wild places:
-                           <span class='sub-text'>Wind River Range (2x), Selway-Bitterroot Wilderness, Quetico (3x), Woodland Caribou (2x), Boundary Waters (3x), Rocky Mountains in CO (3x).</span>
+                           <span class='sub-text'>Isle Royale, Quetico, Appalachian Trail, Selway-Bitterroot Wilderness, Sylvania Wilderness, Wind River Range, Woodland Caribou, Boundary Waters, Rocky Mountains in CO.</span>
                         </span>                        
                     </li>
+                    <!-- <li class='flex-row'>
+                        <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
+                        <span class='text'>Lived out of a backpack in the following wild places:
+                           <span class='sub-text'>Isle Royale (2006), Quetico (2007, 2009, 2013), Selway-Bitterroot Wilderness (2011), Wind River Range (2008, 2015), Woodland Caribou (2010, 2014), Boundary Waters (2020, 2021, 2022), Rocky Mountains in CO (2020, 2021, 2022).</span>
+                        </span>                        
+                    </li> -->
+                    <!-- <li class='flex-row'>
+                        <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
+                        <span class='text'>Uses a Jetboil purchased back when there was only one model.</span>
+                    </li> -->
                     <li class='flex-row'>
                         <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
-                        <span class='text'>Worked in large IT Department (2000+), small IT shop (10), co-owned business and functioned as the IT department.</span>
+                        <span class='text'>Worked in large IT Department (2000+ employees), small IT shop (10 employees), co-owned business and functioned as the IT department.</span>
                     </li>                   
                     <li class='flex-row'>
                         <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
-                        <span class='text'>Developed websites and web apps in the following industries: financial, construction,  animal services, event management, non-profit.</span>
+                        <span class='text'>Developed websites and web apps in the following industries: Financial, Construction,  Animal Services, Event Management, Non-profit.</span>
                     </li>
                     <li class='flex-row'>
                         <span class='icon'><img class='image' src='~/../img/about/code.png' alt='code icon'/> </span>
-                        <span class='text'>Spent 70+ nights living out of a Travel Trailer while exploring the US in 2021</span>
+                        <span class='text'>Spent 70+ nights living out of a travel trailer while exploring the US in 2021</span>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class='image-deck-section'>
+        <!-- LIFESTYLE -->
+        <section id='life' class='image-deck-section'>
             <div class='image-deck'>
                 <div class='main-image'>
                     <div class='image-wrapper'>
@@ -93,83 +122,217 @@
                         <div class='behind'></div>
                     </div>                    
                 </div>
-                <div class='thumbnails'>
-                    <div class='thumbnail-item active' data-background='hl.jpg'>
-                        <img class='image' src='~/../img/lifestyle/hl.jpg' alt='Hiking Huckleberry Lookout.'/>
-                        <div class='title'>Hiking to Huckleberry Lookout</div>
+                <div class='thumbnails'>                      
+                    <div class='thumbnail-item active' data-background='hl.webp'>
+                        <img class='image' src='~/../img/lifestyle/hl.webp' alt='Hiking Huckleberry Lookout.' loading="lazy"/>
+                        <div class='title'>Huckleberry Lookout in the Fall</div>
+                    </div>                   
+                    <div class='thumbnail-item' data-background='bighorns-3.webp'>
+                        <img class='image' src='~/../img/lifestyle/bighorns-3.webp' alt='Napping on a rock in the Big Horns.' loading="lazy"/>
+                        <div class='title'>Moose on the loose</div>
                     </div>
-                    <div class='thumbnail-item' data-background='wmr.jpg'>
+                    <div class='thumbnail-item' data-background='wild-mt-3.webp'>
+                        <img class='image' src='~/../img/lifestyle/wild-mt-3.webp' alt='Trail clearing with Wild Montana' loading="lazy"/>
+                        <div class='title'>Trail clearing with Wild Montana</div>
+                    </div>   
+                    <div class='thumbnail-item' data-background='wmr-2.webp'>
+                        <img class='image' src='~/../img/lifestyle/wmr-2.webp' alt='Hiking in the snow' loading="lazy"/>
+                        <div class='title'>Post-season Benny Up</div>
+                    </div>
+                    <div class='thumbnail-item' data-background='kayak.webp'>
+                        <img class='image' src='~/../img/lifestyle/kayak.webp' alt='Kayaking Lake McDonald on a calm day.' loading="lazy"/>
+                        <div class='title'>Lake McDonald on a lucky day</div>
+                    </div>  
+                    <div class='thumbnail-item' data-background='hiking-2.webp'>
+                        <img class='image' src='~/../img/lifestyle/hiking-2.webp' alt='Hiking in Montana' loading="lazy"/>
+                        <div class='title'>Hiking the Great Northern</div>
+                    </div>
+                    <!-- <div class='thumbnail-item' data-background='wmr.jpg'>
                         <img class='image' src='~/../img/lifestyle/wmr.jpg' alt='Hiking in the snow'/>
-                        <div class='title'>Post-season hiking the Benny Up</div>
-                    </div>                    
-                    <div class='thumbnail-item' data-background='bwca.jpg'>
+                        <div class='title slide-down tr-d-1'>Post-season hiking the Benny Up</div>
+                    </div>                     -->
+                    <div class='thumbnail-item' data-background='bwca-2.webp'>
+                        <img class='image' src='~/../img/lifestyle/bwca-2.webp' alt='Fishing in a canoe in the Boundary Waters.' loading="lazy"/>
+                        <div class='title'>Boundary Waters - Dads and Kids trip</div>
+                    </div>  
+                    <!-- <div class='thumbnail-item' data-background='bwca.jpg'>
                         <img class='image' src='~/../img/lifestyle/bwca.jpg' alt='Fishing in a canoe in the Boundary Waters.'/>
-                        <div class='title'>Fathers Day Boundary Waters trip</div>
+                        <div class='title slide-down tr-d-2'>Fathers Day Boundary Waters trip</div>
+                    </div>   -->                                   
+                    <div class='thumbnail-item' data-background='bighorns.webp'>
+                        <img class='image' src='~/../img/lifestyle/bighorns.webp' alt='Napping on a rock in the Big Horns.' loading="lazy"/>
+                        <div class='title'>Naptime in the Cloudpeak Wilderness </div>
                     </div>                    
-                    <div class='thumbnail-item' data-background='bighorns.jpg'>
-                        <img class='image' src='~/../img/lifestyle/bighorns.jpg' alt='Napping on a rock in the Big Horns.'/>
-                        <div class='title'>Naptime in the Big Horns</div>
-                    </div>                    
-                    <div class='thumbnail-item' data-background='jb.jpg'>
-                        <img class='image' src='~/../img/lifestyle/jb.jpg' alt='Hiking on a mountain ridge in the snow'/>
+                    <div class='thumbnail-item' data-background='jb.webp'>
+                        <img class='image' src='~/../img/lifestyle/jb.webp' alt='Hiking on a mountain ridge in the snow' loading="lazy"/>
                         <div class='title'>Late season mountain exploring</div>
-                    </div>
+                    </div>                                                         
                 </div>                
             </div>
 
         </section>
 
-        <section class='cta-section'>
-            <div class='wording'>
+        <!-- CTA -->
+        <section id='purpose' class='cta-section'>
+            <article class='wording'>
                 <p>Hello Zaneray!</p>
-                <p>I’m John Bissen. A midwesterner turned Montanan. I’ve spent 20 years developing and supporting software. Ten years ago my wife and I started planning our move to the Flathead Valley and that’s when I found Xaneray. Since then I’ve been following your work and working to move my skillset in your direction.</p>
-                <p>Throughout my career I have worn many hats: Application Engineer, Senior Web Developer, Business Owner, Developer, Tester, Trainer, Designer, even Guy who fixes the plumbing when it leaks. I like working with people, learning new skills, being challenged, and striving to produce my best quality work. </p>
-                <p>I would like the opportunity to be part of your team.  You can find more about me and see some of my work at <a href='https://www.mountainsandcode.com' title='Johns Portfolio - Mountains and Code' target='_new'>MountainsAndCode.com</a>.  Feel free to reach out by phone or email.</p>
+                <p>I’m John Bissen. A midwesterner turned Montanan. I’ve spent 20 years developing and supporting software. Ten years ago my wife and I started planning our move to the Flathead Valley and that’s when I found Zaneray. Since then I’ve been following your work and working to move my skillset in your direction.</p>
+                <p>Throughout my career I have worn many hats: Application Engineer, Senior Web Developer, Business Owner, Developer, Tester, Trainer, Designer, even guy who fixes the plumbing when it leaks. I like working with people, learning new skills, and being challenged.  I always strive to produce my best quality work. </p>
+                <p><span class='stand-out'>I would like the opportunity to be part of your team.</span>  You can find more about me and see some of my work at <a href='https://www.mountainsandcode.com' title='Johns Portfolio - Mountains and Code' target='_new'>MountainsAndCode.com</a>.  Feel free to reach out by phone or email.</p>
                 <p>For 10 years I have viewed Zaneray as the standard for web design and application. Styles come and go but the work you put out is always clean, modern, and clever.</p>
                 <p>Thank you!</p>
-            </div>
+                <p class='signature'>John Bissen</p>
+            </article>
         </section>
 
-        <section class='gear-section'>
-            <div class='quote-col'>
+        <!-- GEAR -->
+        <section id='gear' class='gear-section'>
+            <div class='quote-col flex-col-between'>
                 <div class='quote'>
-                    <span>A number of years ago I needed to upgrade my pack and I went with the Osprey Aether 70.  It's been the perfect backpack.  I’ve taken it on week long fly fishing trips in the mountains, extended canoe camping trips, short day trips around town, uphill skiing, even hauling 100lbs of Elk meat out of the mountains and this pack still looks new.  If you need one backpack that does everything, this is it.</span>
+                    <article>A number of years ago I needed to upgrade my pack and I went with the Osprey Aether 70.  It's been the perfect backpack.  I’ve taken it on week long fly fishing trips in the mountains, extended canoe camping trips, short day trips around town, uphill skiing, even hauling 100lbs of elk meat out of the mountains and this pack still looks new.  If you need one backpack that does everything, this is it.</article>
                     <div class='author'>- John Bissen</div>
                 </div>
-                <div class='quote-image'>   
-                    <img class='image' src='~/../img/gear/hikeup.jpg' alt='John with snowboard on back walking up mountain.'/>                     
-                </div>
+               
             </div>
-            <div class='image-col'>
-                <div class='vertical-text'>John's Top Gear Picks</div>
-                <img class='image' src='~/../img/gear/mountaintop.jpg' alt='John and Son sitting on rock on mountaintop.'/>
+            <div class='quote-image'>   
+                <img class='image' src='~/../img/gear/hikeup.jpg' alt='John with snowboard on back walking up mountain.' loading="lazy"/>                     
             </div>
+            <div class='image-col'>                
+                <img class='image' src='~/../img/gear/mountaintop.webp' alt='John and Son sitting on rock on mountaintop.' loading="lazy"/>
+            </div>
+            <div class='vertical-text'>John's Top Gear Picks<span class='expand'><img class='toggle' src='~/../img/gear/chevron-right.png' alt='Hide Top Gear Picks Section' /></span></div>
             <div class='gear-col'>
                 <!-- Item 1 -->
                 <div class='gear-item'>
                     <div class='gear-details'>
                         <div class='gear-image'>
-                            <img class='image' src='~/../img/gear/osprey.jpg' alt='Osprey Aether 70 in Red'/>
+                            <img class='image' src='~/../img/gear/osprey.jpg' alt='Osprey Aether 70 in Red' loading="lazy"/>
                         </div>
-                        <div class='gear-name'>Osprey Aether 70</div>
-                        <div class='gear-price'>$330.00</div>
+                        <div class='gear-text'>
+                            <div class='gear-name'>Osprey Aether 70</div>
+                            <div class='gear-price'>$330.00</div>
+                        </div>
+                        <div class='gear-shopping'>
+                            <div class='reviews'>
+                                <div class='ratings-and-details'>
+                                    <div class='reviews'>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star-half.png' alt='star'/></div>
+                                        <div class='rating'>4.7(129)</div>
+                                    </div>  
+                                    <div class='link'>
+                                        <a target='_new' href='https://www.rei.com/product/846410/osprey-aether-70-pack' title='Shop Osprey Aether 70 on REIs site' loading="lazy">
+                                            details
+                                            <img class='chevron' src='~/../img/gear/chevron-right.png' alt='chevron pointing right'/>
+                                        </a>
+                                    </div>   
+                                </div>                                
+                            </div>                                                                                  
+                            <div class='add-button'>
+                                <button><span class='text'>Add to Bag</text></button>
+                            </div>
+                        </div>                   
                     </div>
-                    <div class='gear-plus'>+</div>
+                    <button class='gear-plus'>
+                        <div class='hide-but-read'><span class='action'>Expand</span> Osprey Aether 70</div>
+                        <span class='icon'></span>
+                    </button>
                 </div>                
                 <!-- Item 2 -->
                 <div class='gear-item'>
                     <div class='gear-details'>
                         <div class='gear-image'>
-                            <img class='image' src='~/../img/gear/blackdiamond.webp' alt='Black Diamond Mercury Mitts'/>
+                            <img class='image' src='~/../img/gear/blackdiamond.webp' alt='Black Diamond Mercury Mitts' loading="lazy"/>
                         </div>
-                        <div class='gear-name'>Black Diamond Mercury Mitts</div>
-                        <div class='gear-price'>$119.95</div>
+                        <div class='gear-text'>
+                            <div class='gear-name'>Black Diamond Mercury Mitts</div>                           
+                            <div class='gear-price'>$119.95</div>                            
+                        </div>     
+                        <div class='gear-shopping'>
+                            <div class='reviews'>
+                                <div class='ratings-and-details'>
+                                    <div class='reviews'>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                        <div class='star'><img class='image' src='~/../img/gear/star-half.png' alt='star'/></div>
+                                        <div class='rating'>4.6(58)</div>
+                                    </div>                                
+                                    <div class='link'>
+                                        <a target='_new' href='https://www.blackdiamondequipment.com/en_US/product/mercury-mitts-mens/' title='Shop Mercury Mitts on Black Diamond Site' loading="lazy">
+                                            details
+                                            <img class='chevron' src='~/../img/gear/chevron-right.png' alt='chevron pointing right'/>
+                                        </a>
+                                    </div>
+                                </div>                                                            
+                            </div>
+                            <div class='size'>
+                                <div class='select-wrap'>
+                                    <select aria-label="Size">
+                                        <option>Size: XS</option>
+                                        <option>Size: S</option>
+                                        <option>Size: M</option>
+                                        <option>Size: L</option>
+                                        <option>Size: XL</option>
+                                    </select>
+                                </div>
+                            </div>                                
+                            <div class='add-button'>
+                                <button><span class='text'>Add to Bag</text></button>
+                            </div>
+                        </div>                   
                     </div>
-                    <div class='gear-plus'>+</div>
-                </div>                                 
+                    <button class='gear-plus'>
+                        <div class='hide-but-read'><span class='action'>Expand</span> Black Diamond Mercury Mitts</div>
+                        <span class='icon'></span>
+                    </button>
+                </div>    
+                <!-- Item 3 -->
+                <div class='gear-item'>
+                    <div class='gear-details'>
+                        <div class='gear-image'>
+                            <img class='image' src='~/../img/gear/hikingpoles.webp' alt='Black Diamond Mercury Mitts' loading="lazy"/>
+                        </div>
+                        <div class='gear-text'>
+                            <div class='gear-name'>Black Diamond Trail Trekking Poles</div>                           
+                            <div class='gear-price'>$119.95</div>                            
+                        </div>     
+                        <div class='gear-shopping'>
+                            <div class='ratings-and-details'>
+                                <div class='reviews'>
+                                    <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                    <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                    <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                    <div class='star'><img class='image' src='~/../img/gear/star.png' alt='star'/></div>
+                                    <div class='star'><img class='image' src='~/../img/gear/star-half.png' alt='star'/></div>
+                                    <div class='rating'>4.8(45)</div>
+                                </div>
+                                <div class='link'>
+                                    <a target='_new' href='https://www.blackdiamondequipment.com/en_US/product/trail-trek-poles/?colorid=4250' title='Shop Trail Trekking Poles on Black Diamond Site'>
+                                        details
+                                        <img class='chevron' src='~/../img/gear/chevron-right.png' alt='chevron pointing right'/>
+                                    </a>
+                                </div>                                                         
+                            </div>
+                            <div class='add-button'>
+                                <button><span class='text'>Add to Bag</text></button>
+                            </div>
+                        </div>                   
+                    </div>
+                    <button class='gear-plus'>
+                        <div class='hide-but-read'><span class='action'>Expand</span> Black Diamond Trail Trekking Poles</div>
+                        <span class='icon'></span>
+                    </button>
+                </div>                              
+                
             </div>
         </section>
 
+        <!-- SLIDESHOW -->
         <section class='slideshow-section'>
             <div>
                 <div id='slideShow'></div>
@@ -177,21 +340,96 @@
             </div>
         </section>
 
-        <!-- Footer -->
-        <footer class='.footer'></footer>
+        <!-- FOOTER -->
+        <footer>  
+            
+
+            <div class='other-links'>
+                <h3>Looking for more?</h3>
+                
+                <a target='_new' href='https://www.mountainsandcode.com/projects/nightlight/' title='Case Study on a React/React Native GPS Project called Nightlight.'>
+                    Case study on a React/React Native GPS project I recently built.
+                </a>
+            
+                <!-- <a href='https://www.mountainsandcode.com/career/mje/' title='Some notes on my time as Senior Web Developer for a national electrical contractor.'>
+                    Some thoughts on working as Senior Web Developer for a national electrical contractor.
+                </a> -->
+                <a target='_new' href='https://www.mountainsandcode.com/career/nah/' title='Some notes on my time as a business owner.'>
+                    Some thoughts on owning a business outside my field while finding ways to continue to grow my career in IT.                    
+                </a>
+                 
+                 
+            </div>
+
+
+            <div class='footer'>          
+                <a href='https://www.mountainsandcode.com'>            
+                    <div class='mountains'>Mountains</div>
+                    <div class='andcode'>and code</div>            
+                </a>            
+            </div>   
+
+                  
+        </footer>       
 
     </main>
 </body>
 
 <script src="~/../js/intersectionObserver.js"></script>
-<script src="~/../js/routing.js"></script>
 <script src="~/../js/components/horizontalSlider/horizontalSlider.js"></script>
 <script src="~/../js/components/controlGrid/controlGrid.js"></script>
 
 <script>    
     //console.log("document is loaded");
-    resetBody();      // Make sure the opacity is set correctly so the page is visible.
     
+     // Make sure the opacity is set correctly so the page is visible.
+    document.querySelector('body').classList.remove('fade');
+
+
+    // Route to a new page, but fade out screen before leaving
+    function transitionToUrl(e) {  
+        console.log('click', e.target.href);
+
+        e.preventDefault();
+        let url = e.target.href;
+        if (!url) {
+            url = e.target.parentNode.href;
+        }       
+
+        // Fade out screen
+        document.querySelector('body').classList.add('fade');    
+
+        // update window location
+        setTimeout(() =>{         
+            window.location = url;
+        },500);
+
+        return false;    
+    }
+
+    /// FOOTER CLICK
+    //
+    const footerEl = document.querySelector('footer a');
+    footerEl.addEventListener('click', transitionToUrl);
+
+    /// MENU CLICK
+    //
+    // Event handler for the navigation link at the top of the page.
+    // We're overriding the hyperlink and scrolling down the page instead of jumping.
+    // Creating the links as hyperlinks in case JS isn't enabled.
+    const links = document.querySelectorAll('.menu ul li a').forEach((el) =>{
+        el.addEventListener('click', (e) => {            
+            // handleLinkClick(e);
+            e.preventDefault();
+            let link = e.target.href;
+            const id = link.substring(link.indexOf('#'));              
+            const target = document.querySelector(id);
+
+            // Scroll up or down the page.
+            target.scrollIntoView({behavior: "smooth"});
+        });
+    });  
+
     
     /// IMAGE DECK
     //  Wire up the click handlers for the Image Deck.
@@ -252,8 +490,8 @@
     //
     let selectedIndex = 0;
     const slides = [
-        {id: 0, name: 'squatters.jpg', alt: 'People sitting in a stream talking.'},
-        {id: 1, name: 'trekking.jpg', alt: 'People hiking across the snow in a mountain valley.'},
+        {id: 0, name: 'squatters.webp', alt: 'People sitting in a stream talking.'},
+        {id: 1, name: 'trekking.webp', alt: 'People hiking across the snow in a mountain valley.'},
     ];
     function renderSlide(item) {
         const full_path = `~/../img/slides/${item.name}`;
@@ -279,7 +517,7 @@
     }
 
 
-    /// EVENTS
+    /// COMPONENT EVENTS
     //
     // When the horizontal slider is updated, notify the other two components
     slideContainer1.addEventListener('onslide', (e) => {
@@ -299,6 +537,98 @@
     });
 
 
+    /// GEAR
+    //
+    // TOP GEAR PICKS - Expand/Collapse component
+    const expandButton = document.querySelector('.expand');
+    expandButton.addEventListener('click', (e) => {
+        //console.log('click', e.target.parentNode);
+        
+        let targetEl = e.target;
+        if (!targetEl.classList.contains('expand')) {
+            targetEl = e.target.parentNode;
+        }
+
+        const gearSectionEl = document.querySelector('.gear-col');
+        if (gearSectionEl.classList.contains('hidden')) {
+            gearSectionEl.classList.remove('hidden');
+            targetEl.classList.remove('clicked');
+
+            const ALT_TEXT = 'Hide Top Gear Picks Section';
+            const toggleEl = targetEl.querySelector('.toggle');
+            toggleEl.alt = ALT_TEXT;
+        }
+        else {            
+            gearSectionEl.classList.add('hidden');
+            targetEl.classList.add('clicked');
+
+            const ALT_TEXT = 'Show Top Gear Picks Section';
+            const toggleEl = targetEl.querySelector('.toggle');
+            toggleEl.alt = ALT_TEXT;
+        }
+    })
+
+
+    // GEAR ITEMS - Expand/Collapse details
+    const gearButtons = document.querySelectorAll('.gear-plus');
+    gearButtons.forEach((item) => {
+        item.addEventListener('click', (e) => {
+            console.log('click', e.target, e.target.parentNode);
+
+            let targetEl = e.target;
+            if (!targetEl.classList.contains('gear-plus')) {
+                console.log('Span');
+                targetEl = e.target.parentNode;
+            }
+
+            // Figure out if we are showing or hiding
+            if (targetEl.classList.contains('clicked')) {
+                /// COLLAPSE SECTION
+                const CLICK_ACTION = 'Expand';
+               
+                // Change Button
+                targetEl.classList.remove('clicked');
+                
+                // Hide shopping details
+                const parentEl = targetEl.parentNode;
+                parentEl.classList.remove('expand');
+
+                const el = targetEl.parentNode.querySelector('.gear-shopping');                
+                el.classList.remove('visible');
+
+                // const button = targetEl.parentNode.querySelector('.add-button');
+                // button.classList.remove('visible');
+
+                // Change screen reader text
+                const text = targetEl.querySelector('.hide-but-read .action');
+                text.innerHTML = CLICK_ACTION;
+
+            }
+            else {
+                /// EXPAND SECTION
+                const CLICK_ACTION = 'Collapse';
+
+                // Change Button
+                targetEl.classList.add('clicked');
+
+                // Show shopping details
+                const parentEl = targetEl.parentNode;
+                parentEl.classList.add('expand');
+
+                const el = targetEl.parentNode.querySelector('.gear-shopping');                
+                el.classList.add('visible');
+                
+                // const button = targetEl.parentNode.querySelector('.add-button');
+                // button.classList.add('visible');
+
+                // Change screen reader text
+                const text = targetEl.querySelector('.hide-but-read .action');                
+                text.innerHTML = CLICK_ACTION;
+            }            
+        });        
+    });
+   
+
     /// RESIZE
     // If the window resizes, the horizontal slider and the timeline are going to be out of whack,
     // So have them re-create themselves.
@@ -309,19 +639,16 @@
     }   
 
 
-
-
     // Create the standard footer for this site.
-    renderFooter();    
-
+    // renderFooter();    
+    
 
     // Intersection Observer for slide-ins (ie text that fades in)
-    // addObserver({
-    //     selectors: '.slide-in',
-    //     fireOnce: true,             
-    //     whenIntersecting: (entry) => { entry.target.classList.add('visible'); },
-    // });  
-
+    addObserver({
+        selectors: '.slide-up, .slide-right, .slide-left, .slide-down',
+        fireOnce: true,             
+        whenIntersecting: (entry) => { entry.target.classList.add('visible'); },
+    });  
 </script>
 
 </html>

@@ -7,6 +7,17 @@ Version History:
 
 
 
+Attribution:
+1.  Brand Icon - <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a>
+2.  Coding Icon - <a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Freepik - Flaticon</a>
+3.  External-link icon - feathericons.com
+4.  Chevron-right - <a href="https://www.flaticon.com/free-icons/next" title="next icons">Next icons created by Pixel perfect - Flaticon</a>
+5.  star - <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+6.  star-empty - <a href="https://www.flaticon.com/free-icons/star" title="star icons">Star icons created by Pixel perfect - Flaticon</a>
+7.  United States flag - blackdiamond.com
+
+
+
 
 
 Deployment Process:

@@ -13,6 +13,7 @@
     /* FONTS */
     --font-heading: 'Archivo Black', sans-serif;;
     --font-body: 'Roboto', sans-serif;
+    --font-cursive: 'Whisper', cursive;
 
 
     /* FONT SIZES */
@@ -20,14 +21,15 @@
     --fs-2: 1.2em;     
     --fs-3: 1.5em;     
     --fs-4: 2em;
+    --fs-6: 3em;
     --fs-8: 4em;
 
     
     /* IMAGE OVERLAYS */
     --io-1: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.0) );
-    --io-2: linear-gradient(to top, rgba(0,0,0,0.2), rgba(0,0,0,0.0) );
+    --io-2: linear-gradient(to top, rgba(0,0,0,0.1), rgba(0,0,0,0.0) );
    
-    --accent-1: orange;
+    --accent-1: #ff8d00;
     
     /* --accent-color1: orange;   
     --accent-1: linear-gradient(90deg, hsla(39, 100%, 50%, 1) 0%, hsla(24, 100%, 50%, 1) 100%);
