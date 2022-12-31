@@ -272,7 +272,8 @@ section.image-deck-section .image-deck .main-image .image-wrapper .behind {
 /* ----------------- TINY SCREENS ---------------- */
 @media only screen and (max-width: 650px) and (orientation: portrait) {
   section.hero-section .background-image {
-    background: url("~/../../img/hero/black-rocks.webp");
+    background: url("~/../../img/hero/hungry-horse.webp");
+    background-position: 80%;
     background-size: cover;
   }
   section.hero-section .background-image img {
@@ -290,8 +291,6 @@ section.image-deck-section .image-deck .main-image .image-wrapper .behind {
 @media only screen and (max-width: 650px) {
   section.hero-section .foreground {
     padding: 20px;
-    top: 70%;
-    left: calc(95% - 250px);
   }
 }
 @media only screen and (max-width: 650px) {

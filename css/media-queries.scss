@@ -333,7 +333,10 @@
 
         @media (orientation: portrait) {
             .background-image { 
-                background: url('~/../../img/hero/black-rocks.webp');
+                // background: url('~/../../img/hero/black-rocks.webp');
+                // background: url('~/../../img/hero/lapush.jpg');
+                background: url('~/../../img/hero/hungry-horse.webp');
+                background-position: 80%;
                 background-size: cover;
 
                 img { visibility: hidden; }
@@ -350,8 +353,10 @@
 
         .foreground {
             padding: 20px;
-            top: 70%;
-            left: calc(95% - 250px); 
+            // top: 70%;
+            // top:150px;
+            // left: 20px;
+            // left: calc(95% - 250px);             
         }
     }
 
