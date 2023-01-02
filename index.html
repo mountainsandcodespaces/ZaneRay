@@ -146,23 +146,15 @@
                     <div class='thumbnail-item' data-background='hiking-2.webp'>
                         <img class='image' src='~/../img/lifestyle/hiking-2.webp' alt='Hiking in Montana' loading="lazy"/>
                         <div class='title'>Hiking the Great Northern</div>
-                    </div>
-                    <!-- <div class='thumbnail-item' data-background='wmr.jpg'>
-                        <img class='image' src='~/../img/lifestyle/wmr.jpg' alt='Hiking in the snow'/>
-                        <div class='title slide-down tr-d-1'>Post-season hiking the Benny Up</div>
-                    </div>                     -->
+                    </div>                    
                     <div class='thumbnail-item' data-background='bwca-2.webp'>
                         <img class='image' src='~/../img/lifestyle/bwca-2.webp' alt='Fishing in a canoe in the Boundary Waters.' loading="lazy"/>
                         <div class='title'>Boundary Waters - Dads and Kids trip</div>
-                    </div>  
-                    <!-- <div class='thumbnail-item' data-background='bwca.jpg'>
-                        <img class='image' src='~/../img/lifestyle/bwca.jpg' alt='Fishing in a canoe in the Boundary Waters.'/>
-                        <div class='title slide-down tr-d-2'>Fathers Day Boundary Waters trip</div>
-                    </div>   -->                                   
-                    <div class='thumbnail-item' data-background='bighorns.webp'>
+                    </div>                                                       
+                    <!-- <div class='thumbnail-item' data-background='bighorns.webp'>
                         <img class='image' src='~/../img/lifestyle/bighorns.webp' alt='Napping on a rock in the Big Horns.' loading="lazy"/>
                         <div class='title'>Naptime in the Cloudpeak Wilderness </div>
-                    </div>                    
+                    </div>                     -->
                     <div class='thumbnail-item' data-background='jb.webp'>
                         <img class='image' src='~/../img/lifestyle/jb.webp' alt='Hiking on a mountain ridge in the snow' loading="lazy"/>
                         <div class='title'>Late season mountain exploring</div>
@@ -349,15 +341,11 @@
                 
                 <a target='_new' href='https://www.mountainsandcode.com/projects/nightlight/' title='Case Study on a React/React Native GPS Project called Nightlight.'>
                     Case study on a React/React Native GPS project I recently built.
-                </a>
-            
-                <!-- <a href='https://www.mountainsandcode.com/career/mje/' title='Some notes on my time as Senior Web Developer for a national electrical contractor.'>
-                    Some thoughts on working as Senior Web Developer for a national electrical contractor.
-                </a> -->
+                </a>            
+                
                 <a target='_new' href='https://www.mountainsandcode.com/career/nah/' title='Some notes on my time as a business owner.'>
                     Some thoughts on owning a business outside my field while finding ways to continue to grow my career in IT.                    
-                </a>
-                 
+                </a>                 
                  
             </div>
 
@@ -596,9 +584,6 @@
                 const el = targetEl.parentNode.querySelector('.gear-shopping');                
                 el.classList.remove('visible');
 
-                // const button = targetEl.parentNode.querySelector('.add-button');
-                // button.classList.remove('visible');
-
                 // Change screen reader text
                 const text = targetEl.querySelector('.hide-but-read .action');
                 text.innerHTML = CLICK_ACTION;
@@ -617,10 +602,7 @@
 
                 const el = targetEl.parentNode.querySelector('.gear-shopping');                
                 el.classList.add('visible');
-                
-                // const button = targetEl.parentNode.querySelector('.add-button');
-                // button.classList.add('visible');
-
+                                
                 // Change screen reader text
                 const text = targetEl.querySelector('.hide-but-read .action');                
                 text.innerHTML = CLICK_ACTION;
@@ -638,10 +620,6 @@
         if (slider1) slider1.handleResize();    
     }   
 
-
-    // Create the standard footer for this site.
-    // renderFooter();    
-    
 
     // Intersection Observer for slide-ins (ie text that fades in)
     addObserver({

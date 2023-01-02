@@ -275,6 +275,7 @@ section.image-deck-section .image-deck .main-image .image-wrapper .behind {
     background: url("~/../../img/hero/hungry-horse.webp");
     background-position: 80%;
     background-size: cover;
+    filter: brightness(1.2);
   }
   section.hero-section .background-image img {
     visibility: hidden;
