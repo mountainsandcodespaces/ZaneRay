@@ -1,1 +1,1 @@
-Resource proposal for Zaneray.
+Resource proposal for ZaneRay.
