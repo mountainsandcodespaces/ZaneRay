@@ -333,13 +333,13 @@
 
         @media (orientation: portrait) {
             .background-image { 
-                // background: url('~/../../img/hero/black-rocks.webp');
+                background: url('~/../../img/hero/black-rocks.webp');
                 // background: url('~/../../img/hero/lapush.jpg');
-                background: url('~/../../img/hero/hungry-horse.webp');
+                // background: url('~/../../img/hero/hungry-horse.webp');
                 background-position: 80%;
                 background-size: cover;
 
-                filter: brightness(1.2);
+                // filter: brightness(1.2);
 
                 img { visibility: hidden; }
             }
@@ -355,10 +355,10 @@
 
         .foreground {
             padding: 20px;
-            // top: 70%;
+            top: 70%;
             // top:150px;
             // left: 20px;
-            // left: calc(95% - 250px);             
+            left: calc(95% - 250px);             
         }
     }
 
