@@ -292,7 +292,7 @@ section.image-deck-section .image-deck .main-image .image-wrapper .behind {
   section.hero-section .foreground {
     padding: 20px;
     top: 70%;
-    left: calc(95% - 250px);
+    left: calc(95% - 265px);
   }
 }
 @media only screen and (max-width: 650px) {
