@@ -1,6 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&family=Inter&family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto&family=Inter&family=Montserrat:wght@700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+
+@font-face {
+    font-family: "Archivo Black";
+    src: url('../fonts/ArchivoBlack-Regular.woff') format("woff");
+  }
+  
+  @font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter-Regular.woff') format("woff");
+  }
+  
+  @font-face {
+    font-family: "Montserrat";
+    src: url('../fonts/Montserrat-Bold.woff') format("woff");
+  }
+  
+  @font-face {
+    font-family: "Roboto";
+    src: url('../fonts/Roboto-Regular.woff') format("woff");
+  }
+  
+  @font-face {
+    font-family: "Whisper";
+    src: url('../fonts/Whisper-Regular.woff') format("woff");
+  }
+
 
 * {
     -moz-box-sizing: border-box;

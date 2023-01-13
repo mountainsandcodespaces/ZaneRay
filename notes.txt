@@ -1,4 +1,5 @@
 Version History:
+#0104 - 01/13/2023 - Local fonts, tweaked font size to correct visual defect with i's looking like L's.
 #0103 - 01/02/2023 - Lightened phone portrait image
                    - Removed cloudpeak wilderness image
 #0102 - 12/30/2022 - Changed phone portrait image
