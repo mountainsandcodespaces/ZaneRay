@@ -432,6 +432,10 @@
             grid-template-columns: 1fr;
             gap: 20px;
 
+            &.wide {
+                grid-template-columns: 1fr;
+            }
+
             h3 {
                 margin-top: 0;
                 margin-left: 20px;

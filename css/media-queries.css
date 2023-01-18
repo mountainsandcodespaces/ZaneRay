@@ -362,6 +362,9 @@ section.image-deck-section .image-deck .main-image .image-wrapper .behind {
     grid-template-columns: 1fr;
     gap: 20px;
   }
+  footer .other-links.wide {
+    grid-template-columns: 1fr;
+  }
   footer .other-links h3 {
     margin-top: 0;
     margin-left: 20px;
